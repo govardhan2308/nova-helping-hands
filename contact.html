@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Helping Hands | Contact Us - Help • Care • Empower • Together</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Get in touch with Nova Helping Hands. Find our address, email, phone number, embedded map, and contact form.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" id="navBrandLink">
+                <i class="bi bi-heart-fill logo-icon"></i>
+                <span class="first-word">Nova</span>
+                <span class="second-word">Helping Hands</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation" id="navbarTogglerBtn">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="index.html" id="navHomeLink">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="about.html" id="navAboutLink">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="programs.html" id="navProgramsLink">Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="gallery.html" id="navGalleryLink">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom" href="volunteer.html" id="navVolunteerLink">Volunteer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-custom active" href="contact.html" id="navContactLink">Contact</a>
+                    </li>
+                </ul>
+                <div class="ms-lg-4">
+                    <a href="index.html#donationSection" class="btn btn-custom btn-custom-primary" id="headerDonateBtn">Donate Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header" style="background-image: url('assets/images/hero_banner.png');" id="contactPageHeader">
+        <div class="page-header-overlay"></div>
+        <div class="container page-header-content">
+            <h1>Contact Us</h1>
+            <ul class="breadcrumb-custom">
+                <li class="breadcrumb-custom-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-custom-item">Contact</li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Contact Details & Form Section -->
+    <section class="section-padding" id="contactMainSection">
+        <div class="container">
+            <div class="row g-5">
+                <!-- Contact info details column -->
+                <div class="col-lg-5">
+                    <div class="contact-info-card">
+                        <h3 class="mb-4" style="font-family: var(--font-headings); font-weight:800;">Get in Touch</h3>
+                        <p class="text-muted mb-5">Have questions about our programs, audit reports, or want to sponsor a child's education? Reach out to us directly through any of these channels or fill out the form.</p>
+
+                        <!-- Address -->
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5>Registered Office</h5>
+                                <p>thailavaram railway gate, bajnai koil street 3, chennai, tamilnadu-600073</p>
+                            </div>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" style="color: var(--secondary-blue); background-color: rgba(0, 107, 230, 0.1);">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5>Email Address</h5>
+                                <p>info@novahelpinghands.org</p>
+                                <p>support@novahelpinghands.org</p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="contact-info-item">
+                            <div class="contact-info-icon" style="color: var(--accent-gold); background-color: rgba(245, 158, 11, 0.1);">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <h5>Phone Number</h5>
+                                <p>+91 1234567890</p>
+                                <p>+91 0987654321</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact form column -->
+                <div class="col-lg-7">
+                    <div class="form-card">
+                        <h3 class="mb-4" style="font-family: var(--font-headings); font-weight:800; text-align:center;">Send a Message</h3>
+                        
+                        <form id="contactForm" novalidate>
+                            <!-- Name -->
+                            <div class="mb-3 d-flex flex-column text-start">
+                                <label for="contactName" class="form-label-custom">Full Name *</label>
+                                <input type="text" class="form-control form-control-custom" id="contactName" placeholder="Enter your full name" required>
+                                <div class="invalid-feedback-custom">Please enter your name.</div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="mb-3 d-flex flex-column text-start">
+                                <label for="contactEmail" class="form-label-custom">Email Address *</label>
+                                <input type="email" class="form-control form-control-custom" id="contactEmail" placeholder="example@mail.com" required>
+                                <div class="invalid-feedback-custom">Please enter a valid email address.</div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="mb-3 d-flex flex-column text-start">
+                                <label for="contactSubject" class="form-label-custom">Subject *</label>
+                                <input type="text" class="form-control form-control-custom" id="contactSubject" placeholder="Message Subject" required>
+                                <div class="invalid-feedback-custom">Please enter a subject.</div>
+                            </div>
+
+                            <!-- Message Body -->
+                            <div class="mb-4 d-flex flex-column text-start">
+                                <label for="contactMessage" class="form-label-custom">Your Message *</label>
+                                <textarea class="form-control form-control-custom" id="contactMessage" rows="5" placeholder="Write your message here..." required></textarea>
+                                <div class="invalid-feedback-custom">Please enter your message.</div>
+                            </div>
+
+                            <!-- Submit -->
+                            <button type="submit" class="btn btn-custom btn-custom-primary w-100 py-3" id="btnContactSubmit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Embedded Google Map Section -->
+    <section class="section-padding bg-light" id="mapSection">
+        <div class="container">
+            <div class="section-header">
+                <span class="subtitle">Our Location</span>
+                <h2>Find Us On The Map</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="map-wrapper">
+                        <!-- Safe mock Embedded Google Maps iframe -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.07174598453!2d80.04725067483892!3d12.838640287464658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f7005ded747f%3A0xf6ad8e9eddbf9d4f!2sNOVAHAMO%20TECHNOLOGIES%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1782381342792!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            title="Nova Helping Hands Office Location">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-custom" id="footerSection">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 footer-brand">
+                    <a class="navbar-brand text-white" href="index.html" id="footerBrandLink">
+                        <i class="bi bi-heart-fill logo-icon"></i>
+                        <span>Nova Helping Hands</span>
+                    </a>
+                    <p class="footer-desc mt-3">Nova Helping Hands is a registered charity dedicated to creating sustainable paths out of poverty. Help • Care • Empower • Together.</p>
+                    <div class="footer-social-links">
+                        <a href="#" class="footer-social-icon" aria-label="Facebook" id="fbLink"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Twitter" id="twLink"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="Instagram" id="igLink"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="footer-social-icon" aria-label="LinkedIn" id="liLink"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link-item"><a href="index.html" id="flHome">Home</a></li>
+                        <li class="footer-link-item"><a href="about.html" id="flAbout">About Us</a></li>
+                        <li class="footer-link-item"><a href="programs.html" id="flPrograms">Programs</a></li>
+                        <li class="footer-link-item"><a href="gallery.html" id="flGallery">Gallery</a></li>
+                        <li class="footer-link-item"><a href="volunteer.html" id="flVolunteer">Volunteer</a></li>
+                        <li class="footer-link-item"><a href="contact.html" id="flContact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="footer-heading">Programs</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link-item"><a href="programs.html" id="fpEdu">Education Support</a></li>
+                        <li class="footer-link-item"><a href="programs.html" id="fpHealth">Healthcare Outreach</a></li>
+                        <li class="footer-link-item"><a href="programs.html" id="fpEnv">Green Plantation</a></li>
+                        <li class="footer-link-item"><a href="programs.html" id="fpComm">Community Kitchen</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="footer-heading">Contact Info</h3>
+                    <ul class="footer-links">
+                        <li class="footer-contact-item">
+                            <i class="bi bi-geo-alt-fill footer-contact-icon"></i>
+                            <span>thailavaram railway gate, bajnai koil street 3, chennai, tamilnadu-600073</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <i class="bi bi-telephone-fill footer-contact-icon"></i>
+                            <span>+91 1234567890</span>
+                        </li>
+                        <li class="footer-contact-item">
+                            <i class="bi bi-envelope-fill footer-contact-icon"></i>
+                            <span>info@novahelpinghands.org</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-bottom">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2026 Nova Helping Hands. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="footer-bottom-links">
+                        <li class="footer-bottom-link-item"><a href="#" id="fbPrivacy">Privacy Policy</a></li>
+                        <li class="footer-bottom-link-item"><a href="#" id="fbTerms">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
