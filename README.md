@@ -79,6 +79,52 @@ Nova-Helping-Hands/
 └── README.md
 ```
 
+
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+
+![Home Page](assets/screenshots/home.png)
+
+---
+
+### 👥 About Us
+
+![About](assets/screenshots/about.png)
+
+---
+
+### 📚 Programs
+
+![Programs](assets/screenshots/programs.png)
+
+---
+
+### 💖 Multi-Currency Donation
+
+![Donation](assets/screenshots/donation.png)
+
+---
+
+### 🖼️ Gallery
+
+![Gallery](assets/screenshots/gallery.png)
+
+---
+
+### 🤝 Volunteer Registration
+
+![Volunteer](assets/screenshots/volunteer.png)
+
+---
+
+### 📞 Contact Page
+
+![Contact](assets/screenshots/contact.png)
+
+
+
+
 ---
 
 ## 🚀 Getting Started
@@ -144,6 +190,7 @@ If you'd like to improve this project, feel free to fork the repository, create 
 ## 👨‍💻 Developed By
 
 **Govardhan N**
+&
 **Mohankumar M**
 
 
