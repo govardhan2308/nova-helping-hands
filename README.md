@@ -200,16 +200,3 @@ If you'd like to improve this project, feel free to fork the repository, create 
 
 This project is developed for educational  purposes.
 
-## 📚 References
-
-The following resources were used during the development of this project:
-
-1. Bootstrap 5 – https://getbootstrap.com/
-2. Bootstrap Icons – https://icons.getbootstrap.com/
-3. Google Fonts – https://fonts.google.com/
-4. MDN Web Docs (HTML, CSS & JavaScript) – https://developer.mozilla.org/
-5. GitHub – https://github.com/
-6. Git – https://git-scm.com/
-7. Visual Studio Code – https://code.visualstudio.com/
-8. OpenAI ChatGPT – https://chatgpt.com/ (Used for debugging, feature implementation, and code guidance.)
-9. Pinterest – https://www.pinterest.com/ (Used for design inspiration and some sample images.)
