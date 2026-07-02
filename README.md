@@ -199,14 +199,18 @@ If you'd like to improve this project, feel free to fork the repository, create 
 ## 📄 License
 
 This project is developed for educational  purposes.
+## 📚 References
 
-PS C:\Users\Mohan\nova-helping-hands> git push origin main                                               
-To https://github.com/govardhan2308/nova-helping-hands.git
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/govardhan2308/nova-helping-hands.git'
-hint: Updates were rejected because the remote contains work that you do not
-hint: have locally. This is usually caused by another repository pushing to
-hint: the same ref. If you want to integrate the remote changes, use
-hint: 'git pull' before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+The following resources were used during the development of this project:
+
+1. Bootstrap 5 – https://getbootstrap.com/
+2. Bootstrap Icons – https://icons.getbootstrap.com/
+3. Google Fonts – https://fonts.google.com/
+4. MDN Web Docs (HTML, CSS & JavaScript) – https://developer.mozilla.org/
+5. GitHub – https://github.com/
+6. Git – https://git-scm.com/
+7. Visual Studio Code – https://code.visualstudio.com/
+8. OpenAI ChatGPT – https://chatgpt.com/ (Used for debugging, feature implementation, and code guidance.)
+9. Pinterest – https://www.pinterest.com/ (Used for design inspiration and some sample images.)
+
 
