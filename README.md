@@ -200,3 +200,13 @@ If you'd like to improve this project, feel free to fork the repository, create 
 
 This project is developed for educational  purposes.
 
+PS C:\Users\Mohan\nova-helping-hands> git push origin main                                               
+To https://github.com/govardhan2308/nova-helping-hands.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/govardhan2308/nova-helping-hands.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
