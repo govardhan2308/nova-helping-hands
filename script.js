@@ -342,3 +342,157 @@ document.addEventListener('DOMContentLoaded', () => {
         return re.test(String(email).toLowerCase());
     }
 });
+
+
+/* ===========================================
+   Multi Currency Donation System
+=========================================== */
+
+const currencyData = {
+    INR: {
+        symbol: "₹",
+        rate: 1
+    },
+
+    USD: {
+        symbol: "$",
+        rate: 0.012
+    },
+
+    EUR: {
+        symbol: "€",
+        rate: 0.011
+    },
+
+    GBP: {
+        symbol: "£",
+        rate: 0.0095
+    },
+
+    AED: {
+        symbol: "AED ",
+        rate: 0.044
+    },
+
+    AUD: {
+        symbol: "A$",
+        rate: 0.018
+    },
+
+    CAD: {
+        symbol: "C$",
+        rate: 0.016
+    },
+
+    SGD: {
+        symbol: "S$",
+        rate: 0.016
+    }
+};
+
+const baseAmounts = [500, 1000, 2500, 5000];        
+
+const raisedAmount = 3008500;
+const goalAmount = 50000000;
+
+const selector = document.getElementById("currencySelector");
+
+selector.addEventListener("change", updateCurrency);
+
+function updateCurrency() {
+
+    const currency = currencyData[selector.value];
+
+    document.getElementById("currencySymbol").innerHTML =
+        currency.symbol;
+
+    const ids = [
+        "preset10",
+        "preset25",
+        "preset50",
+        "preset100"
+    ];
+
+    ids.forEach(function(id, index){
+
+        const converted =
+(baseAmounts[index] * currency.rate).toFixed(0);
+
+        document.getElementById(id).innerHTML =
+            currency.symbol + converted;
+
+        document.getElementById(id).dataset.amount =
+            converted;
+
+    });
+
+    const raised =
+        Math.round(raisedAmount * currency.rate);
+
+    const goal =
+        Math.round(goalAmount * currency.rate);
+
+    document.getElementById("raisedVal").innerHTML =
+        currency.symbol +
+        raised.toLocaleString();
+
+    document.getElementById("goalVal").innerHTML =
+        "Goal : " +
+        currency.symbol +
+        goal.toLocaleString();
+
+}
+
+/* Initial Load */
+
+updateCurrency();
+
+
+/* ================================
+Preset Button Selection
+================================ */
+
+document.querySelectorAll(".btn-preset").forEach(function(btn){
+
+    btn.addEventListener("click",function(){
+
+        document.querySelectorAll(".btn-preset")
+        .forEach(function(x){
+
+            x.classList.remove("active");
+
+        });
+
+        this.classList.add("active");
+
+        document.getElementById("customDonationInput").value =
+            this.dataset.amount;
+
+    });
+
+});
+
+
+/* ================================
+Donation Submit
+================================ */
+
+document.getElementById("homeDonateForm")
+.addEventListener("submit",function(e){
+
+    e.preventDefault();
+
+    const symbol =
+        currencyData[selector.value].symbol;
+
+    const amount =
+        document.getElementById("customDonationInput").value;
+
+    alert(
+        "❤️ Thank you for donating " +
+        symbol +
+        amount +
+        " to Nova Helping Hands!"
+    );
+
+});

@@ -292,6 +292,7 @@ a:hover {
     margin-bottom: 24px;
     animation: fadeInUp 1s ease 0.2s;
     animation-fill-mode: both;
+    color: var(--white);
 }
 
 @media (max-width: 768px) {
@@ -307,7 +308,7 @@ a:hover {
 
 .hero-desc {
     font-size: 1.15rem;
-    color: rgba(255, 255, 255, 0.9);
+    color:var(--white);
     max-width: 600px;
     margin-bottom: 40px;
     animation: fadeInUp 1s ease 0.4s;
@@ -1450,4 +1451,60 @@ a:hover {
 
 .delay-3 {
     animation-delay: 0.3s;
+}
+
+
+
+
+/* ===================================================
+   MULTI CURRENCY DONATION SECTION
+=================================================== */
+
+.donation-input-group{
+    height:60px;
+    margin-top:20px;
+}
+
+.donation-input-group .currency-symbol{
+
+    width:75px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#198754;
+
+    color:#fff;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    border:none;
+
+}
+
+.donation-input-group input{
+
+    border:2px solid #198754;
+
+    border-left:none;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    box-shadow:none;
+
+}
+
+.donation-input-group input:focus{
+
+    box-shadow:none;
+
+    border-color:#198754;
+
 }
