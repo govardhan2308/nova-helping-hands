@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova Helping Hands | Home - Help • Care • Empower • Together</title>
+    <title>Nova Helping Hands | Home @ - Help • Care • Empower • Together</title>
     <!-- Meta Description for SEO -->
     <meta name="description" content="Nova Helping Hands is a charity NGO committed to providing education support, health campaigns, and community welfare to empower the underprivileged.">
     <!-- Google Fonts -->
@@ -252,19 +252,95 @@
                             </div>
                         </div>
 
-                        <form class="donation-form-wrapper" id="homeDonateForm">
-                            <div class="donation-preset-container">
-                                <button type="button" class="btn-preset" data-amount="10" id="preset10">$10</button>
-                                <button type="button" class="btn-preset" data-amount="25" id="preset25">$25</button>
-                                <button type="button" class="btn-preset active" data-amount="50" id="preset50">$50</button>
-                                <button type="button" class="btn-preset" data-amount="100" id="preset100">$100</button>
-                            </div>
-                            <div class="custom-donation-input-grp">
-                                <span class="currency-symbol">$</span>
-                                <input type="number" id="customDonationInput" placeholder="Custom Donation Amount" value="50">
-                            </div>
-                            <button type="submit" class="btn btn-custom btn-custom-primary w-100 py-3" id="btnDonateSubmit">Donate Now</button>
+
+                            
                         </form>
+
+                        <!-- Donation Form -->
+<form class="donation-form-wrapper" id="homeDonateForm">
+
+    <!-- Currency Selection -->
+    <div class="mb-4">
+        <label class="form-label fw-bold mb-2">
+            <i class="bi bi-currency-exchange"></i>
+            Select Currency
+        </label>
+
+        <select class="form-select" id="currencySelector">
+            <option value="INR" selected>🇮🇳 Indian Rupee (₹)</option>
+            <option value="USD">🇺🇸 US Dollar ($)</option>
+            <option value="EUR">🇪🇺 Euro (€)</option>
+            <option value="GBP">🇬🇧 British Pound (£)</option>
+            <option value="AED">🇦🇪 UAE Dirham (AED)</option>
+            <option value="AUD">🇦🇺 Australian Dollar (A$)</option>
+            <option value="CAD">🇨🇦 Canadian Dollar (C$)</option>
+            <option value="SGD">🇸🇬 Singapore Dollar (S$)</option>
+        </select>
+    </div>
+
+    <!-- Donation Buttons -->
+    <div class="donation-preset-container">
+
+        <button
+            type="button"
+            class="btn-preset"
+            id="preset10"
+            data-value="10">
+            ₹10
+        </button>
+
+        <button
+            type="button"
+            class="btn-preset"
+            id="preset25"
+            data-value="25">
+            ₹25
+        </button>
+
+        <button
+            type="button"
+            class="btn-preset active"
+            id="preset50"
+            data-value="50">
+            ₹50
+        </button>
+
+        <button
+            type="button"
+            class="btn-preset"
+            id="preset100"
+            data-value="100">
+            ₹100
+        </button>
+
+    </div>
+
+    <!-- Custom Amount -->
+    <div class="input-group donation-input-group">
+
+    <span class="input-group-text currency-symbol" id="currencySymbol">
+        ₹
+    </span>
+
+    <input
+        type="number"
+        class="form-control"
+        id="customDonationInput"
+        placeholder="Enter Donation Amount">
+
+</div>
+
+    <!-- Donate Button -->
+    <button
+        type="submit"
+        class="btn btn-custom btn-custom-primary w-100 py-3 mt-4">
+
+        Donate Now
+
+    </button>
+
+</form>
+
                     </div>
                 </div>
             </div>
