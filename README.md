@@ -73,8 +73,11 @@ Nova-Helping-Hands/
 ├── volunteer.html
 ├── contact.html
 │
-├── style.css
-├── script.js
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
 │
 └── README.md
 ```
