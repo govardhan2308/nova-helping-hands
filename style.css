@@ -1508,3 +1508,24 @@ a:hover {
     border-color:#198754;
 
 }
+
+
+.logo{
+    height:70px;
+    width:auto;
+}
+
+
+.logo{
+    height:90px;
+}
+
+.footer-logo{
+    height:70px;
+    width:auto;
+}
+
+.navbar-brand{
+    color: var(--primary-green);
+}
+
