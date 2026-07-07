@@ -199,7 +199,10 @@ If you'd like to improve this project, feel free to fork the repository, create 
 ## 📄 License
 
 This project is developed for educational  purposes.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2826e50f4304cafc89d0b067ab18d45b4dd9161f
 ## 📚 References
 
 The following resources were used during the development of this project:
@@ -213,3 +216,8 @@ The following resources were used during the development of this project:
 7. Visual Studio Code – https://code.visualstudio.com/
 8. OpenAI ChatGPT – https://chatgpt.com/ (Used for debugging, feature implementation, and code guidance.)
 9. Pinterest – https://www.pinterest.com/ (Used for design inspiration and some sample images.)
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 2826e50f4304cafc89d0b067ab18d45b4dd9161f
